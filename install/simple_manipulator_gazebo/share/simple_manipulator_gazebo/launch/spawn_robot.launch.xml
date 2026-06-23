@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<launch>
+  <set_parameter name="use_sim_time" value="true" />
+
+  <let name="robot_description_xml" 
+    value="$(command 'xacro $(find-pkg-share simple_manipulator_moveit_config)/config/simple_manipulator.urdf.xacro')" />
+  <let name="robot_description_semantic_xml" 
+    value="$(command 'cat $(find-pkg-share simple_manipulator_moveit_config)/config/simple_manipulator.srdf')" />
+
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="robot_description" value="$(var robot_description_xml)" type="str" />
+  </node>
+
+  <node pkg="ros_gz_sim" exec="create" name="robot_spawner" output="screen"
+    args="-topic /robot_description -name simple_manipulator -z 0.1" />
+
+  <node pkg="controller_manager" exec="spawner" name="joint_state_broadcaster_spawner"
+    args="joint_state_broadcaster --controller-manager /controller_manager --controller-manager-timeout 30"
+    output="screen" />
+  <node pkg="controller_manager" exec="spawner" name="arm_controller_spawner"
+    args="arm_controller -c /controller_manager --controller-manager-timeout 30"
+    output="screen" />
+  <node pkg="controller_manager" exec="spawner" name="gripper_controller_spawner"
+    args="gripper_controller -c /controller_manager --controller-manager-timeout 30"
+    output="screen" />
+
+  <node pkg="moveit_ros_move_group" exec="move_group" name="move_group" output="screen">
+    <param name="robot_description" value="$(var robot_description_xml)" type="str" />
+    <param name="robot_description_semantic" value="$(var robot_description_semantic_xml)" type="str" />
+    <param name="robot_description_kinematics"
+      value="$(find-pkg-share simple_manipulator_moveit_config)/config/kinematics.yaml"
+      type="str" />
+    <param name="robot_description_planning"
+      value="$(find-pkg-share simple_manipulator_moveit_config)/config/joint_limits.yaml"
+      type="str" />
+    <param name="planning_pipelines" value="['ompl']" />
+    <param name="default_planning_pipeline" value="ompl" type="str" />
+    <param name="ompl.planning_plugin" value="ompl_interface/OMPLPlanner" type="str" />
+    <param name="ompl.request_adapters" value="['default_planning_request_adapters/ResolveConstraintFrames', 'default_planning_request_adapters/ValidateWorkspaceBounds', 'default_planning_request_adapters/CheckStartStateBounds', 'default_planning_request_adapters/CheckStartStateCollision']" />
+    <param name="ompl.response_adapters" value="['default_planning_response_adapters/AddTimeOptimalParameterization', 'default_planning_response_adapters/ValidateSolution', 'default_planning_response_adapters/DisplayMotionPath']" />
+  </node>
+
+  <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen"
+    args="-d $(find-pkg-share simple_manipulator_gazebo)/config/rviz_config.rviz">
+    <param name="robot_description" value="$(var robot_description_xml)" type="str" />
+    <param name="robot_description_semantic" value="$(var robot_description_semantic_xml)" type="str" />
+    <param name="robot_description_kinematics"
+      value="$(find-pkg-share simple_manipulator_moveit_config)/config/kinematics.yaml"
+      type="str" />
+  </node>
+
+</launch>

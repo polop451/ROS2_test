@@ -1,0 +1,22 @@
+[0.691s] Invoking command in '/home/user/ros2_ws/src/motion_planner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/motion_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/motion_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/user/ros2_ws/build/motion_planner/build install --record /home/user/ros2_ws/build/motion_planner/install.log --single-version-externally-managed install_data
+[0.910s] running egg_info
+[0.926s] writing ../../build/motion_planner/motion_planner.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../../build/motion_planner/motion_planner.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../../build/motion_planner/motion_planner.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../build/motion_planner/motion_planner.egg-info/requires.txt
+[0.928s] writing top-level names to ../../build/motion_planner/motion_planner.egg-info/top_level.txt
+[0.964s] reading manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+[0.964s] adding license file 'LICENSE'
+[0.964s] writing manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+[0.965s] running build
+[0.965s] running build_py
+[0.965s] running install
+[0.970s] running install_lib
+[0.986s] running install_data
+[0.986s] running install_egg_info
+[1.002s] removing '/home/user/ros2_ws/install/motion_planner/lib/python3.12/site-packages/motion_planner-0.0.0-py3.12.egg-info' (and everything under it)
+[1.003s] Copying ../../build/motion_planner/motion_planner.egg-info to /home/user/ros2_ws/install/motion_planner/lib/python3.12/site-packages/motion_planner-0.0.0-py3.12.egg-info
+[1.005s] running install_scripts
+[1.105s] Installing trajectory_generator script to /home/user/ros2_ws/install/motion_planner/lib/motion_planner
+[1.106s] writing list of installed files to '/home/user/ros2_ws/build/motion_planner/install.log'
+[1.131s] Invoked command in '/home/user/ros2_ws/src/motion_planner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/ros2_ws/build/motion_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros2_ws/install/motion_planner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/user/ros2_ws/build/motion_planner/build install --record /home/user/ros2_ws/build/motion_planner/install.log --single-version-externally-managed install_data

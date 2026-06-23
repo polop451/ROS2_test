@@ -1,0 +1,24 @@
+[0.044s] Invoking command in '/home/user/ros2_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/test -- -j4 -l4
+[0.212s] Invoked command in '/home/user/ros2_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/test -- -j4 -l4
+[0.223s] Invoking command in '/home/user/ros2_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/test
+[0.234s] -- Install configuration: ""
+[0.234s] -- Execute custom install script
+[0.234s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/launch/description_test.launch.xml
+[0.234s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/launch/description_test.launch.xml
+[0.235s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/urdf/robot.urdf
+[0.235s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[0.236s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[0.236s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/environment/ament_prefix_path.sh
+[0.237s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[0.240s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/environment/path.sh
+[0.240s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/environment/path.dsv
+[0.240s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/local_setup.bash
+[0.240s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/local_setup.sh
+[0.240s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/local_setup.zsh
+[0.240s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/local_setup.dsv
+[0.240s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/package.dsv
+[0.248s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/ament_index/resource_index/packages/test
+[0.249s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/cmake/testConfig.cmake
+[0.250s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/cmake/testConfig-version.cmake
+[0.251s] -- Up-to-date symlink: /home/user/ros2_ws/install/test/share/test/package.xml
+[0.257s] Invoked command in '/home/user/ros2_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/test

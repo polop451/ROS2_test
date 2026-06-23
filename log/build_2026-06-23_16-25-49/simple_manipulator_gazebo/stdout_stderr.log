@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/launch
+-- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/launch/spawn_robot.launch.xml
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/launch/start_simulator.launch.xml
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/config
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/config/rviz_config.rviz
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/config/bridge_car_config.yaml
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/worlds
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/worlds/empty.world
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/ament_index/resource_index/package_run_dependencies/simple_manipulator_gazebo
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/ament_index/resource_index/parent_prefix_path/simple_manipulator_gazebo
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/ament_index/resource_index/packages/simple_manipulator_gazebo
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/cmake/simple_manipulator_gazeboConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/cmake/simple_manipulator_gazeboConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/package.xml

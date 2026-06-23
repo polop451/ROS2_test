@@ -1,0 +1,41 @@
+# MoveIt uses this configuration to choose controllers that match the move_group actions
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - arm_controller
+    - gripper_controller
+
+  arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    joints:
+      - joint_1
+      - joint_2
+
+  gripper_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    joints:
+      - left_gripper_joint
+
+planning_plugins:
+  - ompl_interface/OMPLPlanner
+default_planning_pipeline: ompl
+planning_pipelines:
+  - ompl
+ompl:
+  planning_plugin: ompl_interface/OMPLPlanner
+  request_adapters: >-
+    default_planning_request_adapters/FixWorkspaceBounds
+    default_planning_request_adapters/FixStartStateBounds
+    default_planning_request_adapters/FixStartStateCollision
+    default_planning_request_adapters/FixStartStatePathConstraints
+    default_planning_request_adapters/IterationParabolicTimeParameterization
+  start_state_max_bounds_error: 0.1
+  arm:
+    planner_configs:
+      - RRTConnectkConfigDefault
+      - PRMkConfigDefault
+    projection_evaluator: joints(joint_1,joint_2)
+    longest_valid_segment_fraction: 0.005

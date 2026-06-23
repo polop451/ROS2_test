@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/motion_planner/motion_planner.egg-info/PKG-INFO
+../../build/motion_planner/motion_planner.egg-info/SOURCES.txt
+../../build/motion_planner/motion_planner.egg-info/dependency_links.txt
+../../build/motion_planner/motion_planner.egg-info/entry_points.txt
+../../build/motion_planner/motion_planner.egg-info/requires.txt
+../../build/motion_planner/motion_planner.egg-info/top_level.txt
+../../build/motion_planner/motion_planner.egg-info/zip-safe
+motion_planner/__init__.py
+motion_planner/trajectory_generator.py
+resource/motion_planner
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

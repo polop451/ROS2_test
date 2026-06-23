@@ -1,0 +1,2 @@
+[console_scripts]
+trajectory_generator = motion_planner.trajectory_generator:main

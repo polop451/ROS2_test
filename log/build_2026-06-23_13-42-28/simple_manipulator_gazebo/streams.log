@@ -1,0 +1,50 @@
+[0.178s] Invoking command in '/home/user/ros2_ws/build/simple_manipulator_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/simple_manipulator_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/simple_manipulator_gazebo
+[0.260s] -- The C compiler identification is GNU 13.3.0
+[0.321s] -- The CXX compiler identification is GNU 13.3.0
+[0.342s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.466s] -- Detecting C compile features
+[0.466s] -- Detecting C compile features - done
+[0.479s] -- Detecting CXX compiler ABI info
+[0.589s] -- Detecting CXX compiler ABI info - done
+[0.595s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.596s] -- Detecting CXX compile features
+[0.597s] -- Detecting CXX compile features - done
+[0.601s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.721s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.819s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.902s] -- Added test 'lint_cmake' to check CMake code style
+[0.904s] -- Added test 'xmllint' to check XML markup files
+[0.907s] -- Configuring done (0.7s)
+[0.910s] -- Generating done (0.0s)
+[0.913s] -- Build files have been written to: /home/user/ros2_ws/build/simple_manipulator_gazebo
+[0.918s] Invoked command in '/home/user/ros2_ws/build/simple_manipulator_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/simple_manipulator_gazebo -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/simple_manipulator_gazebo
+[0.919s] Invoking command in '/home/user/ros2_ws/build/simple_manipulator_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/simple_manipulator_gazebo -- -j4 -l4
+[0.960s] Invoked command in '/home/user/ros2_ws/build/simple_manipulator_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/simple_manipulator_gazebo -- -j4 -l4
+[0.960s] Invoking command in '/home/user/ros2_ws/build/simple_manipulator_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/simple_manipulator_gazebo
+[0.972s] -- Install configuration: ""
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/launch
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/launch/spawn_robot.launch.xml
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/launch/start_simulator.launch.xml
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/config
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/config/rviz_config.rviz
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/config/bridge_car_config.yaml
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/worlds
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/worlds/empty.world
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/ament_index/resource_index/package_run_dependencies/simple_manipulator_gazebo
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/ament_index/resource_index/parent_prefix_path/simple_manipulator_gazebo
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/ament_prefix_path.sh
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/ament_prefix_path.dsv
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/path.sh
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/environment/path.dsv
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.bash
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.sh
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.zsh
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/local_setup.dsv
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/package.dsv
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/ament_index/resource_index/packages/simple_manipulator_gazebo
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/cmake/simple_manipulator_gazeboConfig.cmake
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/cmake/simple_manipulator_gazeboConfig-version.cmake
+[0.972s] -- Installing: /home/user/ros2_ws/install/simple_manipulator_gazebo/share/simple_manipulator_gazebo/package.xml
+[0.974s] Invoked command in '/home/user/ros2_ws/build/simple_manipulator_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/motion_planner:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/simple_manipulator_gazebo
