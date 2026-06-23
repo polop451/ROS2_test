@@ -1,0 +1,44 @@
+[0.018s] Invoking command in '/home/user/ros2_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/test
+[0.160s] -- The C compiler identification is GNU 13.3.0
+[0.304s] -- The CXX compiler identification is GNU 13.3.0
+[0.333s] -- Detecting C compiler ABI info
+[0.432s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.451s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.547s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.565s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.691s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.772s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.836s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.939s] -- Added test 'lint_cmake' to check CMake code style
+[0.941s] -- Added test 'xmllint' to check XML markup files
+[0.946s] -- Configuring done (0.9s)
+[0.946s] -- Generating done (0.0s)
+[0.947s] -- Build files have been written to: /home/user/ros2_ws/build/test
+[0.951s] Invoked command in '/home/user/ros2_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/ros2_ws/src/test -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/test
+[0.952s] Invoking command in '/home/user/ros2_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/test -- -j4 -l4
+[0.986s] Invoked command in '/home/user/ros2_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/ros2_ws/build/test -- -j4 -l4
+[0.995s] Invoking command in '/home/user/ros2_ws/build/test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/test
+[1.001s] -- Install configuration: ""
+[1.002s] -- Execute custom install script
+[1.002s] -- Symlinking: /home/user/ros2_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
+[1.009s] -- Symlinking: /home/user/ros2_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
+[1.017s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/environment/ament_prefix_path.sh
+[1.024s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/environment/ament_prefix_path.dsv
+[1.030s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/environment/path.sh
+[1.039s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/environment/path.dsv
+[1.046s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/local_setup.bash
+[1.053s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/local_setup.sh
+[1.060s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/local_setup.zsh
+[1.068s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/local_setup.dsv
+[1.075s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/package.dsv
+[1.082s] -- Symlinking: /home/user/ros2_ws/install/test/share/ament_index/resource_index/packages/test
+[1.089s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/cmake/testConfig.cmake
+[1.096s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/cmake/testConfig-version.cmake
+[1.103s] -- Symlinking: /home/user/ros2_ws/install/test/share/test/package.xml
+[1.112s] Invoked command in '/home/user/ros2_ws/build/test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/ros2_ws/build/test
