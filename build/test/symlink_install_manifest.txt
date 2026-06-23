@@ -1,3 +1,6 @@
+/home/user/ros2_ws/install/test/share/test/launch/description_test.launch.xml
+/home/user/ros2_ws/install/test/share/test/launch/description_test.launch.xml
+/home/user/ros2_ws/install/test/share/test/urdf/robot.urdf
 /home/user/ros2_ws/install/test/share/ament_index/resource_index/package_run_dependencies/test
 /home/user/ros2_ws/install/test/share/ament_index/resource_index/parent_prefix_path/test
 /home/user/ros2_ws/install/test/share/test/environment/ament_prefix_path.sh

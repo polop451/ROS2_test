@@ -315,6 +315,12 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(DIRECTORY "launch" "DESTINATION" "share/test")
+ament_cmake_symlink_install_directory("/home/user/ros2_ws/src/test" DIRECTORY "launch" "DESTINATION" "share/test")
+
+# install(DIRECTORY "launch" "urdf" "DESTINATION" "share/test")
+ament_cmake_symlink_install_directory("/home/user/ros2_ws/src/test" DIRECTORY "launch" "urdf" "DESTINATION" "share/test")
+
 # install(FILES "/home/user/ros2_ws/build/test/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/user/ros2_ws/src/test" FILES "/home/user/ros2_ws/build/test/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
